@@ -1,4 +1,4 @@
-package com.learn.lspring;
+package com.learn;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

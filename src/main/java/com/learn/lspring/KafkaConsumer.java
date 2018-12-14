@@ -15,9 +15,12 @@ import org.springframework.stereotype.Component;
 public class KafkaConsumer {
 
     private final Logger log = LoggerFactory.getLogger(this.getClass());
+    private Config config;
 
     @Autowired
-    private Config config;
+    public KafkaConsumer(Config config){
+        this.config = config;
+    }
 
     @Autowired
     private Logl logl;

@@ -1,6 +1,5 @@
 package com.learn;
 
-import com.learn.configur.Config;
 import com.learn.lspring.KafkaConsumer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
